@@ -1,0 +1,110 @@
+# ============================================
+# Node.js / JavaScript / TypeScript projects
+# ============================================
+
+# Dependencias
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Archivos de build / distribución
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.astro/
+.storybook-out/
+
+# Archivos temporales de Vite, Webpack, Rollup, etc.
+*.log
+vite-cache/
+.cache/
+.esbuild/
+.temp/
+.tmp/
+coverage/
+lib/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Entornos y variables
+.env
+.env.*
+!.env.example
+
+# Configuración de editores / IDEs
+.vscode/
+.idea/
+*.sw?
+*.swo
+*.bak
+
+# Test / Coverage
+coverage/
+*.lcov
+
+# Archivos locales de npm / yarn
+.npmrc
+.pnpm-debug.log
+.yarn-integrity
+.yarn/
+
+# Archivos generados por Husky
+.husky/_/
+
+# Archivos de Commitlint / Lint-Staged (logs)
+lint-staged.log
+
+# Archivos temporales de OS
+*.tmp
+*.temp
+
+# Archivos de logs varios
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache de VSCode y TypeScript
+*.tsbuildinfo
+.vscode-test/
+
+# Archivos de CI/CD
+!.github/
+!.gitlab-ci.yml
+
+# Archivos de Strapi (si usas)
+public/uploads/
+.strapi-updates.json
+.database/
+
+# Archivos de Docker
+docker-compose.override.yml
+*.pid
+
+# ============================================
+# Personalización del proyecto
+# ============================================
+
+# Si usas Next.js:
+# .next/
+
+# Si usas Astro:
+# .astro/
+
+# Si usas Vue/Vite:
+# vite.config.ts.timestamp-*
+
+# Si usas React Native:
+# android/
+# ios/
+
+# Si usas monorepo (pnpm workspaces)
+.pnpm-store/
